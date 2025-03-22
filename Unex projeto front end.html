@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-unex projeto.css">
+    <title>Faculdade Unex Itabuna</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Unex.png" alt="Unex">
+    <h1>Faculdade Unex Itabuna</h1>
+    <p>Educação de Excelência para um Futuro Melhor!</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre a Unex</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#contato">Contato</a>
+    <a href="https://www.google.com/search?q=Unex+Itabuna&tbm=isch" target="_blank">Fotos da Unex</a>
+</nav>
+
+<div class="container" id="sobre">
+    <h2>Sobre a Unex Itabuna</h2>
+    <p>A Unex Itabuna é uma instituição renomada, oferecendo ensino de qualidade e infraestrutura moderna para o desenvolvimento acadêmico e profissional dos alunos.</p>
+</div>
+
+<div class="container" id="cursos">
+    <h2>Nossos Cursos</h2>
+    <div class="courses">
+        <div class="course">
+            <h3>Medicina</h3>
+            <p>Formação de excelência na área médica.</p>
+            <a href="https://unex.edu.br/graduacao/medicina" target="_blank">Saiba mais</a>
+        </div>
+        <div class="course">
+            <h3>Direito</h3>
+            <p>Prepare-se para o mercado jurídico com qualidade.</p>
+            <a href="https://unex.edu.br/graduacao/direito" target="_blank">Saiba mais</a>
+        </div>
+        <div class="course">
+            <h3>Engenharia Civil</h3>
+            <p>Curso voltado para inovação na construção civil.</p>
+            <a href="https://unex.edu.br/graduacao/engenharia-civil" target="_blank">Saiba mais</a>
+        </div>
+        <div class="course">
+            <h3>Psicologia</h3>
+            <p>Aprenda sobre comportamento humano e saúde mental.</p>
+            <a href="https://unex.edu.br/graduacao/psicologia" target="_blank">Saiba mais</a>
+        </div>
+        <div class="course">
+            <h3>Enfermagem</h3>
+            <p>Capacitação completa para atuar na área da saúde.</p>
+            <a href="https://unex.edu.br/graduacao/enfermagem" target="_blank">Saiba mais</a>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="contato">
+    <h2>Entre em Contato</h2>
+    <div class="contact">
+        <div class="contact-button">
+            <h3>WhatsApp</h3>
+            <p>Fale conosco pelo WhatsApp!</p>
+            <a href="https://wa.me/seunumerodetelefone" target="_blank">Enviar Mensagem</a>
+        </div>
+        <div class="contact-button">
+            <h3>E-mail</h3>
+            <p>Envie-nos um e-mail para mais informações.</p>
+            <a href="mailto:contato@unex.edu.br">Enviar E-mail</a>
+        </div>
+        <div class="contact-button">
+            <h3>Site Oficial</h3>
+            <p>Acesse nosso site para mais detalhes.</p>
+            <a href="https://unex.edu.br/" target="_blank">Visitar Site</a>
+        
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.course').forEach(course => {
+    course.addEventListener('mouseover', () => {
+        course.style.transform = 'scale(1.05)';
+        course.style.transition = '0.3s';
+    });
+
+    course.addEventListener('mouseout', () => {
+        course.style.transform = 'scale(1)';
+    });
+});
+</script>
+
+<footer>
+    <p>&copy; 2025 Unex Itabuna - Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>

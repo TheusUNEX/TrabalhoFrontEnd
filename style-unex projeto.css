@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+header {
+    background-color: #12123C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    text-align: center;
+    margin: 20px;
+}
+nav a {
+    text-decoration: none;
+    background-color: #97e700;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: #393970;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.courses, .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.course, .contact-button {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.course a, .contact-button a {
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    background-color: #97e700;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.course a:hover, .contact-button a:hover {
+    background-color: #393970;
+}
+footer {
+    text-align: center;
+    background-color: #12123C;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
