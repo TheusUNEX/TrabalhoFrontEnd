@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-unex-projeto.css">
-    <title>Faculdade Unex Itabuna</title>
-    <style>
-        
-    </style>
+  <title>Faculdade Unex Itabuna</title>
 </head>
 <body>
 
@@ -20,6 +17,8 @@
 <nav>
     <a href="#sobre">Sobre a Unex</a>
     <a href="#cursos">Cursos</a>
+    <a href="#infraestrutura">Infraestrutura</a>
+    <a href="#localizacao">Localização</a>
     <a href="#contato">Contato</a>
     <a href="https://www.google.com/search?q=Unex+Itabuna&tbm=isch" target="_blank">Fotos da Unex</a>
 </nav>
@@ -27,6 +26,12 @@
 <div class="container" id="sobre">
     <h2>Sobre a Unex Itabuna</h2>
     <p>A Unex Itabuna é uma instituição renomada, oferecendo ensino de qualidade e infraestrutura moderna para o desenvolvimento acadêmico e profissional dos alunos.</p>
+    <h3>Missão</h3>
+    <p>Promover educação superior de excelência, formando profissionais qualificados e cidadãos responsáveis.</p>
+    <h3>Diferenciais</h3>
+    <ul>
+        Professores altamente qualificados, laboratórios modernos e bem equipados, parcerias com empresas e instituições renomadas, Atividades extracurriculares e programas de intercâmbio.
+    </ul>
 </div>
 
 <div class="container" id="cursos">
@@ -60,6 +65,18 @@
     </div>
 </div>
 
+<div class="container" id="infraestrutura">
+    <h2>Infraestrutura</h2>
+    <p>A Unex Itabuna possui campus moderno, com salas climatizadas, laboratórios de última geração e biblioteca completa para suporte ao aprendizado.</p>
+   <img src="lab1.jpg" alt="lab2">
+</div>
+
+<div class="container" id="localizacao">
+    <h2>Localização</h2>
+    <p>Estamos localizados no coração de Itabuna, com fácil acesso e ampla estrutura de transporte.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2345328703095!2d-39.273029485618034!3d-14.796609789644288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x73dc112233445566%3A0x123456789abcdef!2sUnex+Itabuna!5e0!3m2!1sen!2sbr!4v1710977777777" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
 <div class="container" id="contato">
     <h2>Entre em Contato</h2>
     <form action="mailto:contato@unex.edu.br" method="post" enctype="text/plain" class="contact-form">
@@ -70,28 +87,28 @@
         <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
         <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
 
         <button type="submit">Enviar Mensagem</button>
     </form>
-<div class="contact-buttons">
+  <div class="contact-buttons">
         <a href="mailto:contato@unex.edu.br" class="btn email">📧 Enviar E-mail</a>
         <a href="https://unex.edu.br/" target="_blank" class="btn site">🌐 Site Oficial</a>
     </div>
+    <div class="social-media">
+    </div>
 </div>
-
-
 <script>
     document.querySelectorAll('.course').forEach(course => {
-    course.addEventListener('mouseover', () => {
-        course.style.transform = 'scale(1.05)';
-        course.style.transition = '0.3s';
-    });
+        course.addEventListener('mouseover', () => {
+            course.style.transform = 'scale(1.05)';
+            course.style.transition = '0.3s';
+        });
 
-    course.addEventListener('mouseout', () => {
-        course.style.transform = 'scale(1)';
+        course.addEventListener('mouseout', () => {
+            course.style.transform = 'scale(1)';
+        });
     });
-});
 </script>
 
 <footer>
