@@ -70,7 +70,7 @@ footer {
     padding: 30px;
 }
 
-/* Estilização do Formulário */
+
 .contact-form {
     max-width: 500px;
     margin: 0 auto;
@@ -110,7 +110,7 @@ footer {
     background: #0056b3;
 }
 
-/* Estilização dos Botões de Contato */
+
 .contact-buttons {
     display: flex;
     justify-content: center;
