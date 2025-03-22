@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style-unex projeto.css">
     <title>Faculdade Unex Itabuna</title>
     <style>
         
@@ -62,25 +62,29 @@
 
 <div class="container" id="contato">
     <h2>Entre em Contato</h2>
-    <div class="contact">
-        <div class="contact-button">
-            <h3>WhatsApp</h3>
-            <p>Fale conosco pelo WhatsApp!</p>
-            <a href="https://wa.me/seunumerodetelefone" target="_blank">Enviar Mensagem</a>
-        </div>
-        <div class="contact-button">
-            <h3>E-mail</h3>
-            <p>Envie-nos um e-mail para mais informações.</p>
-            <a href="mailto:contato@unex.edu.br">Enviar E-mail</a>
-        </div>
-        <div class="contact-button">
-            <h3>Site Oficial</h3>
-            <p>Acesse nosso site para mais detalhes.</p>
-            <a href="https://unex.edu.br/" target="_blank">Visitar Site</a>
-        
-        </div>
+    
+    <!-- Formulário de Contato -->
+    <form action="mailto:contato@unex.edu.br" method="post" enctype="text/plain" class="contact-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+
+    <!-- Botões de Contato Direto -->
+    <div class="contact-buttons">
+        <a href="https://wa.me/seunumerodetelefone" target="_blank" class="btn whatsapp">📱 WhatsApp</a>
+        <a href="mailto:contato@unex.edu.br" class="btn email">📧 Enviar E-mail</a>
+        <a href="https://unex.edu.br/" target="_blank" class="btn site">🌐 Site Oficial</a>
     </div>
 </div>
+
 
 <script>
     document.querySelectorAll('.course').forEach(course => {
