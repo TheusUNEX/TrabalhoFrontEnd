@@ -75,8 +75,8 @@ footer {
     max-width: 500px;
     margin: 0 auto;
     background: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 5%;
+    border-radius: 3%;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -89,9 +89,9 @@ footer {
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: px solid #ccc;
     border-radius: 5px;
 }
 
@@ -114,14 +114,14 @@ footer {
 .contact-buttons {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .btn {
     text-decoration: none;
     color: white;
-    padding: 12px 20px;
+    padding: 5px 20px;
     border-radius: 5px;
     font-weight: bold;
     display: inline-block;
@@ -134,4 +134,3 @@ footer {
 .btn:hover {
     opacity: 0.8;
 }
-
